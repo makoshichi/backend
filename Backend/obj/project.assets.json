@@ -12224,11 +12224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eduar\\source\\repos\\Backend\\Backend\\Backend.csproj",
+      "projectUniqueName": "C:\\Work\\pijama\\github\\backend\\Backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "C:\\Users\\eduar\\source\\repos\\Backend\\Backend\\Backend.csproj",
+      "projectPath": "C:\\Work\\pijama\\github\\backend\\Backend\\Backend.csproj",
       "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eduar\\source\\repos\\Backend\\Backend\\obj\\",
+      "outputPath": "C:\\Work\\pijama\\github\\backend\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

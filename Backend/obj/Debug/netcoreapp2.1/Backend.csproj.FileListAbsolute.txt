@@ -12,3 +12,17 @@ C:\Users\eduar\source\repos\Backend\Backend\obj\Debug\netcoreapp2.1\Backend.Asse
 C:\Users\eduar\source\repos\Backend\Backend\obj\Debug\netcoreapp2.1\Backend.RazorTargetAssemblyInfo.cache
 C:\Users\eduar\source\repos\Backend\Backend\obj\Debug\netcoreapp2.1\Backend.dll
 C:\Users\eduar\source\repos\Backend\Backend\obj\Debug\netcoreapp2.1\Backend.pdb
+C:\Work\pijama\github\backend\Backend\bin\Debug\netcoreapp2.1\Backend.deps.json
+C:\Work\pijama\github\backend\Backend\bin\Debug\netcoreapp2.1\Backend.runtimeconfig.json
+C:\Work\pijama\github\backend\Backend\bin\Debug\netcoreapp2.1\Backend.runtimeconfig.dev.json
+C:\Work\pijama\github\backend\Backend\bin\Debug\netcoreapp2.1\Backend.dll
+C:\Work\pijama\github\backend\Backend\bin\Debug\netcoreapp2.1\Backend.pdb
+C:\Work\pijama\github\backend\Backend\obj\Debug\netcoreapp2.1\Backend.csproj.CoreCompileInputs.cache
+C:\Work\pijama\github\backend\Backend\obj\Debug\netcoreapp2.1\Backend.RazorAssemblyInfo.cache
+C:\Work\pijama\github\backend\Backend\obj\Debug\netcoreapp2.1\Backend.RazorAssemblyInfo.cs
+C:\Work\pijama\github\backend\Backend\obj\Debug\netcoreapp2.1\Backend.AssemblyInfoInputs.cache
+C:\Work\pijama\github\backend\Backend\obj\Debug\netcoreapp2.1\Backend.AssemblyInfo.cs
+C:\Work\pijama\github\backend\Backend\obj\Debug\netcoreapp2.1\Backend.RazorTargetAssemblyInfo.cache
+C:\Work\pijama\github\backend\Backend\obj\Debug\netcoreapp2.1\Backend.dll
+C:\Work\pijama\github\backend\Backend\obj\Debug\netcoreapp2.1\Backend.pdb
+C:\Work\pijama\github\backend\Backend\obj\Debug\netcoreapp2.1\Backend.csprojAssemblyReference.cache

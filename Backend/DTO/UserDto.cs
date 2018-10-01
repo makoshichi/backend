@@ -7,7 +7,6 @@ namespace Backend.DTO
         public int id { get; set; }
         public string name { get; set; }
         public string password { get; set; }
-        public string token { get; set; }
 
         public static explicit operator User(UserDto dto)
         {
@@ -25,8 +24,7 @@ namespace Backend.DTO
             {
                 id = user.Id,
                 name = user.Name,
-                password = user.Password, // Yeah...
-                token = string.Empty
+                password = user.Password // Yeah...
             };
         }
     }

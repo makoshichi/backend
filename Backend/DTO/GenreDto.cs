@@ -8,8 +8,8 @@ namespace Backend.DTO
         public int id { get; set; }
         public string name { get; set; }
         public bool active { get; set; }
-        public string token { get; set; }
 
+        // GenreDto to Genre cast (explicit, has data loss)
         public static explicit operator Genre(GenreDto dto)
         {
             return new Genre()
@@ -21,14 +21,14 @@ namespace Backend.DTO
             };
         }
 
+        // Genre to GenreDto cast (implicit, no data loss)
         public static implicit operator GenreDto(Genre genre)
         {
             return new GenreDto()
             {
                 id = genre.Id,
                 active = genre.Active,
-                name = genre.Name,
-                token = string.Empty
+                name = genre.Name
             };
         }
     }

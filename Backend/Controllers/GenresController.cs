@@ -25,8 +25,8 @@ namespace Backend.Controllers
         }
 
         [HttpGet]
-        [Route("[action")]
-        public IActionResult Get(Token token)
+        [Route("[action]")]
+        public IActionResult Get()
         {
             var response = JsonConvert.SerializeObject(ModelToDto.ConvertGenreList(context.Genres.ToList()));
             return Ok(response);
@@ -61,8 +61,8 @@ namespace Backend.Controllers
         }
 
         [HttpDelete]
-        [Route("[action")]
-        public IActionResult DeleteGenre([FromBody] GenreDto dto)
+        [Route("[action]")]
+        public IActionResult Delete([FromBody] GenreDto dto)
         {
             try
             {

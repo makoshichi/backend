@@ -21,9 +21,9 @@ namespace Backend.Controllers
             this.context = context;
         }
 
-        [HttpPost]
-        [Route("[action")]
-        public IActionResult Get(Token token)
+        [HttpGet]
+        [Route("[action]")]
+        public IActionResult Get()
         {
             //NO AUTH
 

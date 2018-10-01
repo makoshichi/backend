@@ -21,9 +21,9 @@ namespace Backend.Controllers
             this.context = context;
         }
 
-        [HttpPost]
-        [Route("[action")]
-        public IActionResult Get(Token token)
+        [HttpGet]
+        [Route("[action]")]
+        public IActionResult Get()
         {
             //NO AUTH
 
@@ -53,8 +53,9 @@ namespace Backend.Controllers
 
                 return Ok(200);
             }
-            catch (Exception) // Find what is Error 403 in exception form
+            catch (Exception e) // Find what is Error 403 in exception form
             {
+                //r error = e.InnerException;
                 return StatusCode(403);
             }
             //catch (Exception)
@@ -72,7 +73,7 @@ namespace Backend.Controllers
         }
 
         [HttpPost]
-        [Route("[action")]
+        [Route("[action]")]
         public IActionResult Delete([FromBody] MovieDto dto)
         {
             //NO AUTH

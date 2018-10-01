@@ -9,7 +9,6 @@ namespace Backend.DTO
         public string name { get; set; }
         public int genreId { get; set; }
         public bool active { get; set; }
-        public string token { get; set; }
 
         public static explicit operator Movie(MovieDto dto)
         {
@@ -29,8 +28,7 @@ namespace Backend.DTO
                 id = movie.Id,
                 name = movie.Name,
                 genreId = movie.Genre.Id,
-                active = movie.Active,
-                token = string.Empty
+                active = movie.Active
             };
         }
     }

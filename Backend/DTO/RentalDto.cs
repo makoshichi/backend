@@ -10,7 +10,6 @@ namespace Backend.DTO
         public int id { get; set; }
         public List<MovieDto> movieList { get; set; } // uma locação pode ter vários filmes
         public int nationalRegistrationNumber { get; set; }
-        public string token { get; set; }
 
         public static explicit operator Rental(RentalDto dto) => new Rental()
         {
@@ -26,8 +25,7 @@ namespace Backend.DTO
             {
                 id = rental.Id,
                 movieList = ConvertToMoviesDto(rental.MovieList).ToList(),
-                nationalRegistrationNumber = rental.RegistrationNumber,
-                token = string.Empty
+                nationalRegistrationNumber = rental.RegistrationNumber
             };
         }
 
